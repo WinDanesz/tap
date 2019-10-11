@@ -12,3 +12,6 @@ iscsiadm -m node -L all
 
 ## Setup LVM
 pvcreate /dev/sda
+
+#### Create a volume group
+vgcreate {size, optional} nameofgroup /firstVolume /secondVolume ...
