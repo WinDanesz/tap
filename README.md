@@ -18,3 +18,5 @@
 
 #### get a list of the existing volume groups
 ```vgs```
+#### more info 
+```vgdisplay myVolumeGroupName```
