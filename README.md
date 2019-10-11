@@ -1,7 +1,7 @@
 "# tap" 
 
 #### reload / start iscsi
-systemctl enable/disable iscsid iscsi
+```systemctl enable/disable iscsid iscsi```
 
 
 #### discover shared partitions
