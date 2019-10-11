@@ -11,12 +11,12 @@
 ```iscsiadm -m node -L all```
 
 ## Setup LVM
-```pvcreate /dev/sda```
+[pvcreate](https://linux.die.net/man/8/pvcreate) dev/sda
 
 #### Create a volume group
-```vgcreate {size, optional} nameofgroup /firstVolume /secondVolume ...```
+[vgcreate](https://linux.die.net/man/8/pvcreate) {size, optional} nameofgroup /firstVolume /secondVolume ...
 
 #### get a list of the existing volume groups
-```vgs```
+[vgs](https://linux.die.net/man/8/vgs)
 #### more info 
-```vgdisplay myVolumeGroupName```
+[vgdisplay](https://linux.die.net/man/8/vgdisplay) myVolumeGroupName
