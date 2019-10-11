@@ -14,7 +14,7 @@
 [pvcreate](https://linux.die.net/man/8/pvcreate) dev/sda
 
 #### Create a volume group
-[vgcreate](https://linux.die.net/man/8/pvcreate) {size, optional} nameofgroup /firstVolume /secondVolume ...
+[vgcreate](https://linux.die.net/man/8/vgcreate) {size, optional} nameofgroup /firstVolume /secondVolume ...
 
 #### get a list of the existing volume groups
 [vgs](https://linux.die.net/man/8/vgs)
