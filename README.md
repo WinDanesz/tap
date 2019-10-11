@@ -24,4 +24,5 @@
 
 #### lvcreate - create a logical volume in an existing volume group
 -l: % size of the volume groop (-l 100 uses the full disk)
-(lvcreate)[https://linux.die.net/man/8/lvcreate] -l 100 myLogicalVolumeName myVolumeGroupName
+
+[lvcreate](https://linux.die.net/man/8/lvcreate) -l 100 myLogicalVolumeName myVolumeGroupName
